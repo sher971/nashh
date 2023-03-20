@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+
+#hero{
+    min-height:400px;
+    background-image: linear-gradient(rgba(1, 5, 20, 0.7),rgba(0, 5, 24, 0.7)),url(shutterstock_789412672-1200x675.jpg);
+   
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h4{
+    font-size: 75px;
+    color: #f0f0f0;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.box{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+
+    
+}
+.card {
+    background: #ffd49d;
+    border-radius: 2px;
+    display: inline-block;
+   
+    margin: 1rem;
+    position: relative;
+   
+  }
+  
+  .aboutus{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .aboutcol{
+    flex-basis:48%;
+    padding: 30px 2px;
+
+  }
+
+  .aboutcol img{
+    width:75%;
+  }
+
+  .aboutcol h1{
+    padding-top: 0;
+    font-size: 25px;
+
+  }
+
+  .aboutcol p{
+    padding: 15px 0 25px;
+    font-size: 20px;
+  }
+
+
+
+  .herobtn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff723b;
+    border: 1px solif #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+   
+}
+.redbtn{
+    border:1px solid#f44336;
+    background: transparent;
+    color: #f44336;
+  }
+
+  .redbtn:hover{
+    color:#720000;
+  }
